@@ -25,8 +25,11 @@ public class Student {
 	public String toString() {
 		return "Student [empId=" + empId + ", empName=" + empName + "]";
 	}
-	
+
 	public double calculateInterest() {
-		return 5.6;
+		double time = 4;
+		double rs = 5000;
+		double per = 4;
+		return rs * time * 4 / 100.0;
 	}
 }
