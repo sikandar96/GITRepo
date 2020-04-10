@@ -4,6 +4,15 @@ public class Student {
 
 	private int empId;
 	private String empName;
+	private double sal;
+
+	public double getSal() {
+		return sal;
+	}
+
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
 
 	public int getEmpId() {
 		return empId;
@@ -23,7 +32,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [empId=" + empId + ", empName=" + empName + "]";
+		return "Student [empId=" + empId + ", empName=" + empName + ", sal=" + sal + "]";
 	}
 
 	public double calculateInterest() {
