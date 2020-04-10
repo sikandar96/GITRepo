@@ -25,4 +25,8 @@ public class Student {
 	public String toString() {
 		return "Student [empId=" + empId + ", empName=" + empName + "]";
 	}
+	
+	public double calculateInterest() {
+		return 5.6;
+	}
 }
