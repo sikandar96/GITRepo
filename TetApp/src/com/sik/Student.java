@@ -36,7 +36,7 @@ public class Student {
 	}
 
 	public double calculateInterest() {
-		System.out.println("Interest Calculation : 123");
+		System.out.println("Interest Calculation : abc");
 		double time = 4;
 		double rs = 5000;
 		double per = 4;
