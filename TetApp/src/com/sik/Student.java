@@ -2,14 +2,14 @@ package com.sik;
 
 public class Student {
 
-	private Integer empId;
+	private int empId;
 	private String empName;
 
-	public Integer getEmpId() {
+	public int getEmpId() {
 		return empId;
 	}
 
-	public void setEmpId(Integer empId) {
+	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
 
